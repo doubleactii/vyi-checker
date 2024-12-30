@@ -1,0 +1,20 @@
+{
+  "name": "vyi-checker",
+  "module": "index.ts",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "bun run bun-build.ts",
+    "server": "http-server -p 8080 -c-1 ./dist"
+  },
+  "devDependencies": {
+    "@evitcastudio/copy-bun-plugin": "^1.0.4",
+    "@types/bun": "latest",
+    "bun": "^1.1.42",
+    "chalk": "^5.4.1",
+    "http-server": "^14.1.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

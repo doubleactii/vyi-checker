@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8" />
+        <title>Vyi Checker</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script type="module" src="./index.js"></script>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div class="layout">
+            <div class="input-section">
+                <label for="source">
+                    <div><i>(The overlay)</i></div>
+                    Select a source file:
+                    <input type="file" id="source" accept=".vyi" />
+                </label>
+            </div>
+
+            <div class="container">
+                <h1>Report Log</h1>
+                <div id="report-log" class="report-log">
+                    Make sure to select a source and destination file to start the comparison.
+                </div>
+            </div>
+
+            <div class="input-section">
+                <label for="destination">
+                    Select a destination file:
+                    <input type="file" id="destination" accept=".vyi" />
+                </label>
+            </div>
+        </div>
+    </body>
+</html>
